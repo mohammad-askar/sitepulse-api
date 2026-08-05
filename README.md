@@ -19,8 +19,19 @@ The project is under active development.
 - Testcontainers
 
 ## Local Development
+## Local Database
 
+Copy the example environment file:
+
+```bash
+cp .env.example .env
 Run the tests:
 
 ```bash
 ./mvnw test
+## Local Database
+
+Copy the example environment file:
+
+```bash
+cp .env.example .env
