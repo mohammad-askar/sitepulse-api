@@ -1,6 +1,7 @@
 package com.mohammadaskar.sitepulse_api.client.domain;
 
 import jakarta.persistence.*;
+import org.aspectj.apache.bcel.generic.InstructionConstants;
 
 import java.time.Instant;
 import java.util.Objects;
@@ -31,6 +32,8 @@ public class Client {
 
      @Column(name = "updated_at", nullable = false)
     private Instant updatedAt;
+
+     public Client(){}
 
      public Client(String name, String contactEmail, String contactPhone){
          this.name = normalizedRequiredText(name);
