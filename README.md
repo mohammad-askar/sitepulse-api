@@ -35,3 +35,13 @@ Copy the example environment file:
 
 ```bash
 cp .env.example .env
+## Testing
+
+The project includes unit, web-layer, and PostgreSQL integration tests.
+
+Docker must be running for integration tests because PostgreSQL is started automatically using Testcontainers.
+
+Run all tests:
+
+```bash
+./mvnw clean test
