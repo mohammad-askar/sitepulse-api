@@ -4,6 +4,12 @@ SitePulse is a backend application for managing facility service operations acro
 
 The platform will allow service companies to manage clients, sites, contracts, recurring tasks, worker assignments, work evidence, service issues, and performance reports.
 
+## Build Status
+
+The project is continuously built and tested using GitHub Actions.
+
+Every pull request targeting `main` runs the complete Maven test suite, including PostgreSQL integration tests with Testcontainers.
+
 ## Current Status
 
 The project is under active development.
@@ -20,6 +26,12 @@ The project is under active development.
 
 ## Local Development
 ## Local Database
+
+## Build Status
+
+The project is continuously built and tested using GitHub Actions.
+
+Every pull request targeting `main` runs the complete Maven test suite, including PostgreSQL integration tests with Testcontainers.
 
 Copy the example environment file:
 
